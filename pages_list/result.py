@@ -18,7 +18,6 @@ def result_page(df):
     - [Prompt Engineering: Advanced Techniques](https://www.mlq.ai/prompt-engineering-advanced-techniques/)
     - [Prompting Guide](https://www.promptingguide.ai/ru)
 
-    CSI&NPS:
 
     Мы очень старались разработать этот курс для вас. Пожалуйста, ответьте на два вопроса:
     """)
