@@ -4,7 +4,7 @@ import streamlit as st
 
 def check_page():
     # Section: Knowledge Test
-    st.header("Тестирование знаний 🧠")
+    st.header("6. Проверка знаний 🧠")
     # List of questions and correct answers
     questions = [
         {"question": "1. Что представляет собой промпт-инжиниринг?",

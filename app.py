@@ -6,6 +6,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 from pages_list import *
+from pages_list.advanced import advanced_page
+from pages_list.baseline import baseline_page
+from pages_list.missuse import missuse_page
 from pages_list.recommend import recommend_page
 
 
@@ -22,21 +25,21 @@ with st.sidebar:
     st.markdown(f"<p style='text-align:center; color:grey;'><a href='{redirect_url}'><img src='{logo_image}' alt='Foo' width='100' height='100'/></a></p>", unsafe_allow_html=True)
 
 with st.sidebar:
-    selected = option_menu('', ["1. Промпт-инжиниринг🚀", "2. Рекомендации по созданию промптов🤔", "3. Базовые техники 🧑‍💻", "4. Продвинутые техники 🤓", "5. Вредоносное применение 🤖", "6. Проверка знаний 🎓", "7. Практика 📜", "8. Итоги 🧐"])
+    selected = option_menu('', ["1. Промпт-инжиниринг🚀", "2. Рекомендации по созданию промптов🤔", "3. Базовые техники 🧑‍💻", "4. Продвинутые техники🤓", "5. Вредоносное применение 🤖", "6. Проверка знаний 🎓", "7. Практика 📜", "8. Итоги 🧐"])
 
 if selected == "1. Промпт-инжиниринг🚀":
     intro_page()
 elif selected == "2. Рекомендации по созданию промптов🤔":
     recommend_page()
 elif selected == "3. Базовые техники 🧑‍💻":
-    theory_page()
+    baseline_page()
 elif selected == "4. Продвинутые техники🤓":
-    theory_page()
+    advanced_page()
 elif selected == "5. Вредоносное применение 🤖":
-    theory_page()
-elif selected == "6. Проверка знаний 🎓 ":
+    missuse_page()
+elif selected == "6. Проверка знаний 🎓":
     check_page()
-elif selected == "7. Практика 📜 ":
+elif selected == "7. Практика 📜":
     practice_page()
 else:
     result_page(df_search)
