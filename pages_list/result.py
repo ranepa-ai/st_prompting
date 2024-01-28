@@ -4,7 +4,7 @@ this_name = 'Основы промпт-инжиниринг💬🚀'
 
 def result_page(df):
     # Section: Course Summary and Feedback
-    st.header("Итоги 🏁")
+    st.header("7. Итоги 🏁")
 
     # Text content summarizing the course
     st.markdown("""
