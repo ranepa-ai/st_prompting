@@ -6,7 +6,7 @@ image_zero_cot = 'https://github.com/Chetoff1228/images/blob/main/zero-cot.png?r
 
 def theory_page():
     # Set the page header with a rainbow divider
-    st.header("Рекомендации по созданию промптов ✔️")
+    st.header("Рекомендации по созданию промптов ✔️", divider='rainbow')
 
     # Section 2.1: Structure of Prompts
     st.subheader("2.1. Структура промпта")

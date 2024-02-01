@@ -3,3 +3,7 @@ from pages_list.practice import practice_page
 from pages_list.result import result_page
 from pages_list.theory import theory_page
 from pages_list.check import check_page
+from pages_list.advanced import advanced_page
+from pages_list.baseline import baseline_page
+from pages_list.missuse import missuse_page
+from pages_list.recommend import recommend_page

@@ -7,7 +7,7 @@ image_zero_cot = 'https://github.com/Chetoff1228/images/blob/main/zero-cot.png?r
 def baseline_page():
     
     # Set the page header with a rainbow divider
-    st.header("3. Базовые техники промпт-инжиниринга 📡")
+    st.header("3. Базовые техники промпт-инжиниринга 📡", divider='rainbow')
 
     st.markdown("""
     Давайте рассмотрим базовые техники промптинга, которые помогают решать сложные и интересные задачи - Zero-shot 📝, Few-shot 🤯 и Chain-of-thought 🔄.

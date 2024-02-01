@@ -28,7 +28,7 @@ def display_and_grade_quiz(questions):
 
 def check_page():
     # Section: Knowledge Test
-    st.header("Тестирование знаний 🧠")
+    st.header("5. Проверка знаний 🧠", divider='rainbow')
     # List of questions and correct answers
     questions = [
         {"question": "1. Что представляет собой промпт-инжиниринг?",

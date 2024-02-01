@@ -3,7 +3,7 @@ import streamlit as st
 def recommend_page():
 
     
-    st.header("2. Рекомендации по созданию промптов ✔️")
+    st.header("2. Рекомендации по созданию промптов ✔️", divider='rainbow')
 
     # Section 2.1: Structure of Prompts
     st.subheader("2.1. Структура промпта")

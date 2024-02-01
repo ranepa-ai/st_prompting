@@ -10,7 +10,7 @@ def generate_prompt_response(prompt, api_url='http://localhost:5001/generate'):
 
 
 def practice_page():
-    st.header("Практика", divider='rainbow')
+    st.header("6. Практика 📡", divider='rainbow')
 
     # Задание 1: Генерация текста для рекламного объявления
     st.subheader("Задание 1: Генерация текста для рекламного объявления")
